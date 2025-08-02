@@ -527,6 +527,7 @@ lob-mode
 ;; keybinding to fast reboot emacs
 
 (global-set-key (kbd "C-M-]") 'restart-emacs)
+(global-set-key (kbd "C-x C-<return>") 'minimap-mode)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
